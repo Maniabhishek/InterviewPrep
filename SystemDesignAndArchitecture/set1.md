@@ -52,4 +52,28 @@ Orchestrator became a critical component (needed HA)
 - ⚠️ Trade-off:
   - Additional storage and logic overhead
 
-2. 
+2. What is Idempotency
+- An operations is idempotenct if, performing it multiple times has the same effect as doing it once
+- post is idempotent as it can create or have side effect if called multiple times
+- where as patch is also conditionally idempotent 
+- Example 1 (Non-idempotent):
+```
+PATCH /user/1
+{
+  "incrementAge": 1
+}
+1st call → age = 26
+2nd call → age = 27
+3rd call → age = 28
+```
+```
+Example 2 (Idempotent PATCH):
+PATCH /user/1
+{
+  "age": 25
+}
+1 call → age = 25
+10 calls → still 25
+
+👉 Same result → idempotent
+```
