@@ -56,3 +56,27 @@
 
 #### Why this was challenging
 - Required coordination across multiple services/teams
+
+## Problem 3: Scaling Long-Running Workflows
+### We faced challenges scaling long-running provisioning workflows under increasing load.
+
+#### Problem
+- Workflows took minutes to hours
+- System needed to handle thousands of concurrent executions
+- Risk of:
+    - Resource exhaustion
+    - System bottlenecks
+    - Failures cascading
+#### Solution
+- Moved to event-driven architecture (Kafka)
+- Introduced workflow orchestration layer
+- Implemented queue-based backpressure
+- Scaled consumers horizontally
+
+#### Trade-offs
+- Increased system complexity
+- Eventual consistency instead of synchronous guarantees
+#### Impact
+- Scaled system to handle 10x traffic growth
+- Improved system stability under peak load
+
