@@ -52,3 +52,4 @@ Orchestrator became a critical component (needed HA)
 - ⚠️ Trade-off:
   - Additional storage and logic overhead
 
+2. 
