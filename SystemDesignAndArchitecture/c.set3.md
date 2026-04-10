@@ -24,7 +24,7 @@
     - Infrastructure-level
     - Shared resource contention
 
-### ⚙️ 3. Check Recent Changes (Fastest Wins First)
+### Check Recent Changes (Fastest Wins First)
 - Even if "nothing changed", I always verify Recent:
 - Deployments (code/config)
 - Infra changes (CPU limits, scaling configs)
