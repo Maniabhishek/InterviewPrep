@@ -83,3 +83,8 @@
     - Restart affected instances
     - Throttle traffic / rate limit
     - Increase resource limits
+
+<img width="607" height="778" alt="image" src="https://github.com/user-attachments/assets/613c2a6d-2c4b-4aab-9ad7-995a58bfde80" />
+
+<img width="643" height="678" alt="image" src="https://github.com/user-attachments/assets/dd2003ba-7bb2-46d2-8e13-bf18baf90c1c" />
+
