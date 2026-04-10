@@ -69,7 +69,7 @@
 - 👉 Example:
 - “Tracing helps pinpoint exactly which service or DB call is slow”
 
-### 8. Hypothesis-Driven Debugging
+### Hypothesis-Driven Debugging
 - “Another service is hogging CPU”
 - “DB connection pool exhausted”
 - “Thread pool blocked”
