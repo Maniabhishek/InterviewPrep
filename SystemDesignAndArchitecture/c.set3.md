@@ -41,7 +41,7 @@
 - 👉 Reality:
     - 80% of issues come from recent changes
 
-### 4. Resource Contention Analysis (VERY IMPORTANT here)
+### Resource Contention Analysis (VERY IMPORTANT here)
 - Since it's a shared environment, I immediately check:
 - CPU usage (is it throttled?)
 - Memory (OOM / GC pressure?)
@@ -50,7 +50,7 @@
 - 👉 Especially:
     - Noisy neighbor problem (another app consuming resources)
 
-### 5. Application-Level Investigation
+### Application-Level Investigation
 - Now I go deeper into the app:
 - Check:
 - Thread pool exhaustion
