@@ -88,3 +88,9 @@
 
 <img width="643" height="678" alt="image" src="https://github.com/user-attachments/assets/dd2003ba-7bb2-46d2-8e13-bf18baf90c1c" />
 
+### Entire system is slow
+- 🔥 Likely causes:
+- CPU saturation
+- Network issues
+- Infra problem
+- Noisy neighbor
